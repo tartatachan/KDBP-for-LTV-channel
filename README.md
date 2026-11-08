@@ -15,7 +15,3 @@ python -m pip install -r requirements.txt
 python demo.py
 python -m unittest discover -s tests -v
 ```
-
-Pretrained weights and the full simulation pipeline are not included.
-The demo checks the receiver interface using untrained parameters and synthetic
-inputs; it does not reproduce the paper's BER curves.
